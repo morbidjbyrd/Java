@@ -1,0 +1,25 @@
+------------------
+|      Area                                        |
+------------------                                 |
+| - radius: double                                 |
+| - length: double                                 |
+| - width: double                                  |
+| - height: float                                  |
+|-----------------                                 |
+| + getArea(radius: double): double                |               
+| + getArea(length: double, width: double): double |
+| + getArea(radius: double, height: long): double  |
+| + getArea(radius: double, height: float): double |
+------------------
+
+---------------------
+|     AreaTest                      |
+---------------------               |
+| - circleRadiusInput: double       |
+| - rectangleLengthInput: double    |
+| - rectangleWidthInput: double     |
+| - cylinderRadiusInput: double     |
+| - cylinderHeightInput: float      |
+| - hollowCylinderHeightInput: long |
+| + main(args: String[]): void      |
+---------------------

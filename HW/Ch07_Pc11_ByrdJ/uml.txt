@@ -1,0 +1,34 @@
+------------------------------------------------------------------
+|                     ArrayOperations                             |
+------------------------------------------------------------------|
+| + getTotalDouble(numbersArrayList: ArrayList<Double>): double   |
+| + getTotalFloat(numbersArrayList: ArrayList<Float>): float      |
+| + getTotalInteger(numbersArrayList: ArrayList<Integer>): int    |
+| + getTotalLong(numbersArrayList: ArrayList<Long>): long         |
+| + getAverageDouble(numbersArrayList: ArrayList<Double>): double |
+| + getAverageFloat(numbersArrayList: ArrayList<Float>): float    |
+| + getAverageInteger(numbersArrayList: ArrayList<Integer>): int  |
+| + getAverageLong(numbersArrayList: ArrayList<Long>): long       | 
+| + getHighestDouble(numbersArrayList: ArrayList<Double>): double |
+| + getHighestFloat(numbersArrayList: ArrayList<Float>): float    |
+| + getHighestInteger(numbersArrayList: ArrayList<Integer>): int  |
+| + getHighestLong(numbersArrayList: ArrayList<Long>): long       |
+| + getLowestDouble(numbersArrayList: ArrayList<Double>): double  |
+| + getLowestFloat(numbersArrayList: ArrayList<Float>): float     |
+| + getLowestInteger(numbersArrayList: ArrayList<Integer>): int   |
+| + getLowestLong(numbersArrayList: ArrayList<Long>): long        |
+-------------------------------------------------------------------
+
+
+-------------------------------------------------
+|               NumberTest                      |
+------------------------------------------------|
+| - numbersArrayList: ArrayList<Float>          | 
+------------------------------------------------|
+| + NumberTest()                                |
+| + readNumbersFromFile(fileName: String): void |
+| + getTotalFloat(): double                     |
+| + getAverageFloat(): double                   |
+| + getLowestFloat(): double                    |
+| + getHighestFloat(): double                   |
+----------------------------------------------=-|

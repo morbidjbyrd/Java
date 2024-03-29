@@ -1,0 +1,60 @@
+
+------------------
+     ParkedCar     
+------------------
+- make: String
+- model: String
+- color: String
+- licensePlate: String
+- time: int
+-------------------
++ ParkedCar()
++ getMake()
++ getModel()
++ getColor()
++ getTimeParked()
++ getLicensePlate()
+
+
+
+------------------
+ ParkingMeter    
+------------------
+- purchasedTime: int
+-----------------
++ ParkingMeter()
++ getPurchasedTime()
+
+
+
+------------------
+ ParkingTicket   
+------------------
+- make: String
+- model: String
+- color: String
+- licensePlate: String
+- fine: double
+- name: String
+- badge: String
+-------------------
++ ParkingTicket()
++ getMake()
++ getModel()
++ getColor()
++ getLicensePlate()
++ getFineDue()
++ getName()
++ getBadge()
+
+
+------------------
+   PoliceOfficer   
+------------------
+- name: String
+- badge: String
+-----------------
++ PoliceOfficer()
++ getName()
++ getBadge()
++ checkParkedCar()
